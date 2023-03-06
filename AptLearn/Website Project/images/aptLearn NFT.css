@@ -50,6 +50,12 @@ a {
   border-radius: 12px;
   color: #fff;
   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+}
+.nav-button:hover {
+  background-color: black;
+  color: var(--buttonColor);
+  border-radius: 0;
 }
 .section-1 > section {
   flex: 1;
@@ -139,6 +145,11 @@ a {
   background-color: #202443;
   border-color: #202443;
   color: #fff;
+  transition: background-color 0.3s, color 0.3s, border-radius 0.3s, border 0.5s;
+}
+.section-1-sub a:hover {
+  background-color: var(--buttonColor);
+  color: var(--background);
 }
 .section2 {
   max-width: 1440px;
@@ -223,6 +234,12 @@ a {
   width: 90px;
   border-radius: 20px;
   text-align: center;
+  transition: background-color 0.3s, color 0.3s, border-radius 0.3s,
+    padding 0.3s;
+}
+.section-2-sub a:hover {
+  background-color: var(--background);
+  color: var(--buttonColor);
 }
 .section3 {
   max-width: 1440px;
